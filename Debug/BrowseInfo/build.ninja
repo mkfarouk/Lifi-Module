@@ -1,0 +1,110 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\senior_1\embedded\test_fume\bluetooth.c -xcl_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.xcl -macro_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.tmp -icc_path "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\senior_1\embedded\test_fume\bluetooth.c -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\senior_1\embedded\test_fume\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I D$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.tmp
+  rspfile_name = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.xcl.rsp
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\senior_1\embedded\test_fume\DIO.c -xcl_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.xcl -macro_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.tmp -icc_path "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\senior_1\embedded\test_fume\DIO.c -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\senior_1\embedded\test_fume\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I D$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.tmp
+  rspfile_name = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.xcl.rsp
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\senior_1\embedded\test_fume\fume.c -xcl_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.xcl -macro_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.tmp -icc_path "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\senior_1\embedded\test_fume\fume.c -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\senior_1\embedded\test_fume\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I D$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.tmp
+  rspfile_name = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.xcl.rsp
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\senior_1\embedded\test_fume\magnetic.c -xcl_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.xcl -macro_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.tmp -icc_path "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\senior_1\embedded\test_fume\magnetic.c -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\senior_1\embedded\test_fume\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I D$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.tmp
+  rspfile_name = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.xcl.rsp
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\senior_1\embedded\test_fume\main.c -xcl_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.xcl -macro_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.tmp -icc_path "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\senior_1\embedded\test_fume\main.c -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\senior_1\embedded\test_fume\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I D$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.tmp
+  rspfile_name = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\ti\TivaWare_C_Series-2.2.0.295\examples\project\startup_ewarm.c -xcl_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.xcl -macro_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.tmp -icc_path "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\ti\TivaWare_C_Series-2.2.0.295\examples\project\startup_ewarm.c -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\senior_1\embedded\test_fume\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I D$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.tmp
+  rspfile_name = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.xcl.rsp
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\senior_1\embedded\test_fume\ultrasonic.c -xcl_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.xcl -macro_file D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.tmp -icc_path "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\senior_1\embedded\test_fume\ultrasonic.c -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\senior_1\embedded\test_fume\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\IAR\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I D$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.tmp
+  rspfile_name = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.xcl.rsp
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.pbi : INDEXER D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.xcl |  $
+D$:\senior_1\embedded\test_fume\bluetooth.c
+  flags = -out=D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.pbi -f D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.xcl
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.pbi : INDEXER D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.xcl |  $
+D$:\senior_1\embedded\test_fume\DIO.c
+  flags = -out=D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.pbi -f D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.xcl
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.pbi : INDEXER D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.xcl |  $
+D$:\senior_1\embedded\test_fume\fume.c
+  flags = -out=D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.pbi -f D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.xcl
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.pbi : INDEXER D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.xcl |  $
+D$:\senior_1\embedded\test_fume\magnetic.c
+  flags = -out=D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.pbi -f D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.xcl
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.pbi : INDEXER D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.xcl |  $
+D$:\senior_1\embedded\test_fume\main.c
+  flags = -out=D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.pbi -f D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.xcl
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.pbi : INDEXER D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.xcl |  $
+D$:\ti\TivaWare_C_Series-2.2.0.295\examples\project\startup_ewarm.c
+  flags = -out=D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.pbi -f D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.xcl
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.pbi : INDEXER D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.xcl |  $
+D$:\senior_1\embedded\test_fume\ultrasonic.c
+  flags = -out=D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.pbi -f D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.xcl
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee.pbw : MAKEBROWSE D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee.pbd
+  flags = D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee.pbd -output D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee.pbw
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part0.pbi : PDBLINK D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.pbi |  $
+D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.pbi $
+D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.pbi
+  flags = -M D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part0.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\bluetooth.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\DIO.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fume.pbi
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part1.pbi : PDBLINK D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.pbi |  $
+D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.pbi $
+D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.pbi
+  flags = -M D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part1.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\magnetic.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\main.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\startup_ewarm.pbi
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part2.pbi : PDBLINK D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.pbi
+  flags = -M D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part2.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\ultrasonic.pbi
+
+build D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee.pbd : PDBLINK D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part0.pbi |  $
+D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part1.pbi $
+D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part2.pbi
+  flags = -M D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee.pbd D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part0.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part1.pbi D$:\senior_1\embedded\test_fume\Debug\BrowseInfo\fumeee_part2.pbi
+
