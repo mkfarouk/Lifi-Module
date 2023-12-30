@@ -107301,7 +107301,7 @@
     "scope": null
   },
   {
-    "ID": "c:bluetooth.c@1283@F@sendBluetoothIntruderMessage@buffer",
+    "ID": "c:bluetooth.c@1116@F@sendBluetoothIntruderMessage@buffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "buffer",
@@ -117507,7 +117507,7 @@
     "scope": null
   },
   {
-    "ID": "c:fume.c@418@macro@RED_LED_GPIO_BASE",
+    "ID": "c:fume.c@371@macro@RED_LED_GPIO_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RED_LED_GPIO_BASE",
@@ -117521,7 +117521,7 @@
     "scope": null
   },
   {
-    "ID": "c:fume.c@461@macro@RED_LED_PIN",
+    "ID": "c:fume.c@414@macro@RED_LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RED_LED_PIN",
@@ -117535,7 +117535,7 @@
     "scope": null
   },
   {
-    "ID": "c:fume.c@493@macro@BLUE_LED_PIN",
+    "ID": "c:fume.c@446@macro@BLUE_LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BLUE_LED_PIN",
@@ -117549,7 +117549,7 @@
     "scope": null
   },
   {
-    "ID": "c:fume.c@526@macro@GREEN_LED_PIN",
+    "ID": "c:fume.c@479@macro@GREEN_LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GREEN_LED_PIN",
@@ -117597,7 +117597,7 @@
     "display": "uint8_t read_fume_sensor(void)",
     "location": {
       "column": "9",
-      "line": "66",
+      "line": "54",
       "path": "D:\\senior_1\\embedded\\test_fume\\fume.c"
     },
     "name": "read_fume_sensor",
@@ -117611,7 +117611,7 @@
     "display": "void init_led(void)",
     "location": {
       "column": "6",
-      "line": "73",
+      "line": "61",
       "path": "D:\\senior_1\\embedded\\test_fume\\fume.c"
     },
     "name": "init_led",
@@ -117625,7 +117625,7 @@
     "display": "void FumeSensorIntHandler(void)",
     "location": {
       "column": "6",
-      "line": "87",
+      "line": "75",
       "path": "D:\\senior_1\\embedded\\test_fume\\fume.c"
     },
     "name": "FumeSensorIntHandler",
@@ -117863,7 +117863,7 @@
     "display": "uint8_t read_magnetic_sensor(void)",
     "location": {
       "column": "9",
-      "line": "61",
+      "line": "49",
       "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.c"
     },
     "name": "read_magnetic_sensor",
@@ -117877,7 +117877,7 @@
     "display": "void MagneticSensorIntHandler(void)",
     "location": {
       "column": "6",
-      "line": "79",
+      "line": "56",
       "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.c"
     },
     "name": "MagneticSensorIntHandler",
@@ -117885,13 +117885,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@631@macro@GREEN_LED_PIN",
+    "ID": "c:main.c@439@macro@GREEN_LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GREEN_LED_PIN",
     "location": {
       "column": "9",
-      "line": "26",
+      "line": "22",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "GREEN_LED_PIN",
@@ -117899,13 +117899,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@665@macro@RED_LED_GPIO_BASE",
+    "ID": "c:main.c@473@macro@RED_LED_GPIO_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RED_LED_GPIO_BASE",
     "location": {
       "column": "9",
-      "line": "27",
+      "line": "23",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "RED_LED_GPIO_BASE",
@@ -117913,13 +117913,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@708@macro@RED_LED_PIN",
+    "ID": "c:main.c@516@macro@RED_LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RED_LED_PIN",
     "location": {
       "column": "9",
-      "line": "28",
+      "line": "24",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "RED_LED_PIN",
@@ -117927,13 +117927,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@740@macro@BLUE_LED_PIN",
+    "ID": "c:main.c@548@macro@BLUE_LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BLUE_LED_PIN",
     "location": {
       "column": "9",
-      "line": "29",
+      "line": "25",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "BLUE_LED_PIN",
@@ -117947,24 +117947,10 @@
     "display": "door_distance",
     "location": {
       "column": "7",
-      "line": "32",
+      "line": "28",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "door_distance",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@closeTheSystem",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void closeTheSystem(void)",
-    "location": {
-      "column": "6",
-      "line": "34",
-      "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
-    },
-    "name": "closeTheSystem",
     "origin": "project_file",
     "scope": null
   },
@@ -117975,7 +117961,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "36",
+      "line": "32",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "main",
@@ -117983,13 +117969,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2091@F@main@flag",
+    "ID": "c:main.c@672@F@main@flag",
     "What": "Variable",
     "defdec": "Def",
     "display": "flag",
     "location": {
       "column": "9",
-      "line": "79",
+      "line": "37",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "flag",
@@ -117997,13 +117983,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2988@F@main@pulse_echo_time",
+    "ID": "c:main.c@1493@F@main@pulse_echo_time",
     "What": "Variable",
     "defdec": "Def",
     "display": "pulse_echo_time",
     "location": {
       "column": "18",
-      "line": "122",
+      "line": "79",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "pulse_echo_time",
@@ -118011,13 +117997,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3094@F@main@distance",
+    "ID": "c:main.c@1573@F@main@distance",
     "What": "Variable",
     "defdec": "Def",
     "display": "distance",
     "location": {
       "column": "15",
-      "line": "125",
+      "line": "82",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "distance",
@@ -118025,13 +118011,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3176@F@main@distance_int",
+    "ID": "c:main.c@1655@F@main@distance_int",
     "What": "Variable",
     "defdec": "Def",
     "display": "distance_int",
     "location": {
       "column": "13",
-      "line": "127",
+      "line": "84",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "distance_int",
@@ -118039,86 +118025,16 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3831@F@main@message",
+    "ID": "c:main.c@2310@F@main@message",
     "What": "Variable",
     "defdec": "Def",
     "display": "message",
     "location": {
       "column": "14",
-      "line": "144",
+      "line": "101",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "message",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@5039@F@main@pulse_echo_time",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pulse_echo_time",
-    "location": {
-      "column": "18",
-      "line": "185",
-      "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
-    },
-    "name": "pulse_echo_time",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@5145@F@main@distance",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "distance",
-    "location": {
-      "column": "15",
-      "line": "188",
-      "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
-    },
-    "name": "distance",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@5227@F@main@distance_int",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "distance_int",
-    "location": {
-      "column": "13",
-      "line": "190",
-      "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
-    },
-    "name": "distance_int",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@5882@F@main@message",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "message",
-    "location": {
-      "column": "14",
-      "line": "207",
-      "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
-    },
-    "name": "message",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@closeTheSystem",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void closeTheSystem(void)",
-    "location": {
-      "column": "6",
-      "line": "283",
-      "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
-    },
-    "name": "closeTheSystem",
     "origin": "project_file",
     "scope": null
   },
@@ -130045,7 +129961,7 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic.c@882@F@ultrasonic_sensor_init@clockFrequency",
+    "ID": "c:ultrasonic.c@824@F@ultrasonic_sensor_init@clockFrequency",
     "What": "Variable",
     "defdec": "Def",
     "display": "clockFrequency",
@@ -130059,7 +129975,7 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic.c@931@F@ultrasonic_sensor_init@delaySeconds",
+    "ID": "c:ultrasonic.c@873@F@ultrasonic_sensor_init@delaySeconds",
     "What": "Variable",
     "defdec": "Def",
     "display": "delaySeconds",
@@ -130073,7 +129989,7 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic.c@964@F@ultrasonic_sensor_init@loadValue",
+    "ID": "c:ultrasonic.c@906@F@ultrasonic_sensor_init@loadValue",
     "What": "Variable",
     "defdec": "Def",
     "display": "loadValue",
@@ -130107,7 +130023,7 @@
     "display": "void softwareDelay(uint32_t)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "52",
       "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.c"
     },
     "name": "softwareDelay",
@@ -130121,7 +130037,7 @@
     "display": "void ultrasonic_trigger_pulse(void)",
     "location": {
       "column": "6",
-      "line": "68",
+      "line": "57",
       "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.c"
     },
     "name": "ultrasonic_trigger_pulse",
@@ -130135,7 +130051,7 @@
     "display": "uint32_t ultrasonic_measure_pulse_echo(void)",
     "location": {
       "column": "10",
-      "line": "79",
+      "line": "68",
       "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.c"
     },
     "name": "ultrasonic_measure_pulse_echo",
@@ -130143,13 +130059,13 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic.c@2463@F@ultrasonic_measure_pulse_echo@start_time",
+    "ID": "c:ultrasonic.c@1759@F@ultrasonic_measure_pulse_echo@start_time",
     "What": "Variable",
     "defdec": "Def",
     "display": "start_time",
     "location": {
       "column": "14",
-      "line": "85",
+      "line": "74",
       "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.c"
     },
     "name": "start_time",
@@ -130157,13 +130073,13 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic.c@2677@F@ultrasonic_measure_pulse_echo@end_time",
+    "ID": "c:ultrasonic.c@1894@F@ultrasonic_measure_pulse_echo@end_time",
     "What": "Variable",
     "defdec": "Def",
     "display": "end_time",
     "location": {
       "column": "14",
-      "line": "91",
+      "line": "80",
       "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.c"
     },
     "name": "end_time",
@@ -130171,13 +130087,13 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic.c@2797@F@ultrasonic_measure_pulse_echo@pulse_echo_time",
+    "ID": "c:ultrasonic.c@1964@F@ultrasonic_measure_pulse_echo@pulse_echo_time",
     "What": "Variable",
     "defdec": "Def",
     "display": "pulse_echo_time",
     "location": {
       "column": "14",
-      "line": "94",
+      "line": "83",
       "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.c"
     },
     "name": "pulse_echo_time",
@@ -130191,7 +130107,7 @@
     "display": "float ultrasonic_calculate_distance(uint32_t)",
     "location": {
       "column": "7",
-      "line": "99",
+      "line": "88",
       "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.c"
     },
     "name": "ultrasonic_calculate_distance",
