@@ -77,7 +77,12 @@ void FumeSensorIntHandler(void) {
   
     if (read_fume_sensor() == 0) {
   
-      
+      if ( GPIOPinRead(RED_LED_GPIO_BASE, GREEN_LED_PIN) == GREEN_LED_PIN){
+      GPIOPinWrite(RED_LED_GPIO_BASE, GREEN_LED_PIN, 0);
+      GPIOPinWrite(RED_LED_GPIO_BASE, BLUE_LED_PIN, 0);
+      GPIOPinWrite(RED_LED_GPIO_BASE, RED_LED_PIN, 0);
+            SysCtlDelay(SysCtlClockGet() / 3);
+      }
       GPIOPinWrite(RED_LED_GPIO_BASE, GREEN_LED_PIN, GREEN_LED_PIN);
       GPIOPinWrite(RED_LED_GPIO_BASE, BLUE_LED_PIN, BLUE_LED_PIN);
       GPIOPinWrite(RED_LED_GPIO_BASE, RED_LED_PIN, RED_LED_PIN);

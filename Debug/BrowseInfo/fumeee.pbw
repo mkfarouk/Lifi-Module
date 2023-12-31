@@ -117983,13 +117983,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1493@F@main@pulse_echo_time",
+    "ID": "c:main.c@1532@F@main@pulse_echo_time",
     "What": "Variable",
     "defdec": "Def",
     "display": "pulse_echo_time",
     "location": {
       "column": "18",
-      "line": "79",
+      "line": "80",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "pulse_echo_time",
@@ -117997,13 +117997,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1573@F@main@distance",
+    "ID": "c:main.c@1612@F@main@distance",
     "What": "Variable",
     "defdec": "Def",
     "display": "distance",
     "location": {
       "column": "15",
-      "line": "82",
+      "line": "83",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "distance",
@@ -118011,13 +118011,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1655@F@main@distance_int",
+    "ID": "c:main.c@1694@F@main@distance_int",
     "What": "Variable",
     "defdec": "Def",
     "display": "distance_int",
     "location": {
       "column": "13",
-      "line": "84",
+      "line": "85",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "distance_int",
@@ -118025,13 +118025,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2310@F@main@message",
+    "ID": "c:main.c@2349@F@main@message",
     "What": "Variable",
     "defdec": "Def",
     "display": "message",
     "location": {
       "column": "14",
-      "line": "101",
+      "line": "102",
       "path": "D:\\senior_1\\embedded\\test_fume\\main.c"
     },
     "name": "message",
@@ -128049,6 +128049,286 @@
     "scope": null
   },
   {
+    "ID": "c:@F@magnetic_sensor_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void magnetic_sensor_init(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "magnetic_sensor_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@magnetic_sensor_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void magnetic_sensor_init(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "magnetic_sensor_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@read_magnetic_sensor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t read_magnetic_sensor(void)",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "read_magnetic_sensor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@read_magnetic_sensor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t read_magnetic_sensor(void)",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "read_magnetic_sensor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MagneticSensorIntHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MagneticSensorIntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "MagneticSensorIntHandler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MagneticSensorIntHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MagneticSensorIntHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "MagneticSensorIntHandler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@magnetic_sensor_deinit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void magnetic_sensor_deinit(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "magnetic_sensor_deinit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@magnetic_sensor_deinit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void magnetic_sensor_deinit(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
+    },
+    "name": "magnetic_sensor_deinit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_sensor_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ultrasonic_sensor_init(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_sensor_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_sensor_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ultrasonic_sensor_init(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_sensor_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_trigger_pulse",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ultrasonic_trigger_pulse(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_trigger_pulse",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_trigger_pulse",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ultrasonic_trigger_pulse(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_trigger_pulse",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_measure_pulse_echo",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t ultrasonic_measure_pulse_echo(void)",
+    "location": {
+      "column": "10",
+      "line": "23",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_measure_pulse_echo",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_measure_pulse_echo",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t ultrasonic_measure_pulse_echo(void)",
+    "location": {
+      "column": "10",
+      "line": "23",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_measure_pulse_echo",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_calculate_distance",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float ultrasonic_calculate_distance(uint32_t)",
+    "location": {
+      "column": "7",
+      "line": "26",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_calculate_distance",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_calculate_distance",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float ultrasonic_calculate_distance(uint32_t)",
+    "location": {
+      "column": "7",
+      "line": "26",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_calculate_distance",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@softwareDelay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void softwareDelay(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "softwareDelay",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@softwareDelay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void softwareDelay(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "softwareDelay",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_sensor_deinit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ultrasonic_sensor_deinit(void)",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_sensor_deinit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ultrasonic_sensor_deinit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ultrasonic_sensor_deinit(void)",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
+    },
+    "name": "ultrasonic_sensor_deinit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@ResetISR",
     "What": "Function",
     "defdec": "Dec",
@@ -128258,286 +128538,6 @@
     },
     "name": "IntDefaultHandler",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@magnetic_sensor_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void magnetic_sensor_init(void)",
-    "location": {
-      "column": "6",
-      "line": "14",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "magnetic_sensor_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@magnetic_sensor_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void magnetic_sensor_init(void)",
-    "location": {
-      "column": "6",
-      "line": "14",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "magnetic_sensor_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@read_magnetic_sensor",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t read_magnetic_sensor(void)",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "read_magnetic_sensor",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@read_magnetic_sensor",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t read_magnetic_sensor(void)",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "read_magnetic_sensor",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MagneticSensorIntHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void MagneticSensorIntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "20",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "MagneticSensorIntHandler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MagneticSensorIntHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void MagneticSensorIntHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "20",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "MagneticSensorIntHandler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@magnetic_sensor_deinit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void magnetic_sensor_deinit(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "magnetic_sensor_deinit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@magnetic_sensor_deinit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void magnetic_sensor_deinit(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "D:\\senior_1\\embedded\\test_fume\\magnetic.h"
-    },
-    "name": "magnetic_sensor_deinit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_sensor_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ultrasonic_sensor_init(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_sensor_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_sensor_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ultrasonic_sensor_init(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_sensor_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_trigger_pulse",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ultrasonic_trigger_pulse(void)",
-    "location": {
-      "column": "6",
-      "line": "20",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_trigger_pulse",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_trigger_pulse",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ultrasonic_trigger_pulse(void)",
-    "location": {
-      "column": "6",
-      "line": "20",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_trigger_pulse",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_measure_pulse_echo",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t ultrasonic_measure_pulse_echo(void)",
-    "location": {
-      "column": "10",
-      "line": "23",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_measure_pulse_echo",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_measure_pulse_echo",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t ultrasonic_measure_pulse_echo(void)",
-    "location": {
-      "column": "10",
-      "line": "23",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_measure_pulse_echo",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_calculate_distance",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float ultrasonic_calculate_distance(uint32_t)",
-    "location": {
-      "column": "7",
-      "line": "26",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_calculate_distance",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_calculate_distance",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float ultrasonic_calculate_distance(uint32_t)",
-    "location": {
-      "column": "7",
-      "line": "26",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_calculate_distance",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@softwareDelay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void softwareDelay(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "28",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "softwareDelay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@softwareDelay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void softwareDelay(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "28",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "softwareDelay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_sensor_deinit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ultrasonic_sensor_deinit(void)",
-    "location": {
-      "column": "6",
-      "line": "30",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_sensor_deinit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ultrasonic_sensor_deinit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ultrasonic_sensor_deinit(void)",
-    "location": {
-      "column": "6",
-      "line": "30",
-      "path": "D:\\senior_1\\embedded\\test_fume\\ultrasonic.h"
-    },
-    "name": "ultrasonic_sensor_deinit",
-    "origin": "user_include",
     "scope": null
   },
   {

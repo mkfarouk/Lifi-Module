@@ -25,7 +25,7 @@
 #define BLUE_LED_PIN GPIO_PIN_2
 
 
-float door_distance = 50.0;
+float door_distance = 35.0;
 
 
 
@@ -67,6 +67,7 @@ int main(void) {
 
                 magnetic_sensor_deinit();
                 ultrasonic_sensor_deinit();
+                fume_sensor_deinit();
                 flag = false;
                 break;
 
