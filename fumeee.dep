@@ -5,86 +5,110 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\magnetic.o</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h</file>
-            <file>$PROJ_DIR$\Debug\List\fumeee.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\utils\uartstdio.h</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\uart.h</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\timer.h</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\ultrasonic.o</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h</file>
-            <file>$PROJ_DIR$\bitwise_operation.h</file>
-            <file>$PROJ_DIR$\bluetooth.h</file>
-            <file>$PROJ_DIR$\DIO.c</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\hw_nvic.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\DIO.o</file>
             <file>$PROJ_DIR$\fume.c</file>
             <file>$PROJ_DIR$\magnetic.h</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\uart.h</file>
             <file>$PROJ_DIR$\fume.h</file>
-            <file>$PROJ_DIR$\DIO.h</file>
-            <file>$PROJ_DIR$\magnetic.c</file>
-            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\examples\project\startup_ewarm.c</file>
-            <file>$PROJ_DIR$\types.h</file>
-            <file>$PROJ_DIR$\ultrasonic.h</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\hw_ints.h</file>
-            <file>$PROJ_DIR$\ultrasonic.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h</file>
             <file>$PROJ_DIR$\Debug\Exe\fumeee.out</file>
-            <file>$PROJ_DIR$\bluetooth.c</file>
+            <file>$PROJ_DIR$\magnetic.c</file>
+            <file>$PROJ_DIR$\bitwise_operation.h</file>
             <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\utils\uartstdio.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\hw_types.h</file>
             <file>$PROJ_DIR$\Debug\Obj\bluetooth.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
             <file>$PROJ_DIR$\Debug\Obj\fume.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\DIO.o</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
-            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\hw_nvic.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\List\fumeee.map</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\hw_ints.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ultrasonic.o</file>
+            <file>$PROJ_DIR$\ultrasonic.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\magnetic.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h</file>
+            <file>$PROJ_DIR$\bluetooth.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\DIO.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\ultrasonic.h</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\bluetooth.c</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\DIO.c</file>
+            <file>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\timer.h</file>
+            <file>$PROJ_DIR$\types.h</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\DIO.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 46</file>
+                    <name>ILINK</name>
+                    <file> 28 17</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 45 10 17 50 16 49 30 24 34 23</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\fume.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44</file>
+                    <file> 26</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 45 10 17 4 12 50 16 49 25 29 15 9 2 19 8 7 36 40 5</file>
+                    <file> 3 42 45 33 25 1 13 5 36 10 44 35 41 14 50 9 29 20 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\examples\project\startup_ewarm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 42 45 1 13 5 2 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\fumeee.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 48 11 43 4 37 6 24 26 32 22 15 30 0</file>
                 </tool>
             </inputs>
         </file>
@@ -93,33 +117,33 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0</file>
+                    <file> 32</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 45 10 17 4 12 50 16 49 25 28 15 9 2 19 8 7 36 40 5</file>
+                    <file> 3 42 45 33 25 1 13 5 36 8 44 35 41 14 50 9 29 20 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ultrasonic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 42 45 27 33 25 1 46 13 34 5 40 44 35 41 14 50 9 29 20 21</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 41</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 45 10 17 4 12 50 16 49 30 24 25 29 28 34 35 15 9 2 19 8 7 36 40 23 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\ti\TivaWare_C_Series-2.2.0.295\examples\project\startup_ewarm.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -129,37 +153,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 45 10 17 50 16 49 48 42</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\ultrasonic.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 45 10 17 18 4 12 50 21 16 11 49 35 15 9 2 19 8 7 36 40 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\fumeee.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 3</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 6 1 13 51 20 46 43 44 0 41 22 14 47</file>
+                    <file> 3 42 45 33 25 1 13 5 38 19 36 10 8 51 40 44 35 41 14 50 9 29 20 16 21</file>
                 </tool>
             </inputs>
         </file>
@@ -168,24 +162,30 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 43</file>
+                    <file> 24</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 45 10 17 4 12 50 16 49 25 15 9 2 19 8 7 36 40 5</file>
+                    <file> 3 42 45 33 25 1 13 5 36 44 35 41 14 50 9 29 20 21</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\DIO.c</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 38 3</file>
+                    <name>ICCARM</name>
+                    <file> 6</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 42 45 1 13 5 38 19 51 16</file>
+                </tool>
+            </inputs>
         </file>
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>
