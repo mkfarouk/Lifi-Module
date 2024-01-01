@@ -21,4 +21,3 @@ void FumeSensorIntHandler(void);
 
 void fume_sensor_deinit(void);
 
-//void Timer1IntHandler(void);

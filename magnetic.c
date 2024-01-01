@@ -13,7 +13,7 @@
 #include "magnetic.h"
 #include "bluetooth.h"
 
-// Define the GPIO pin connected to the Blue LED
+
 
 #define BLUE_LED_GPIO_BASE GPIO_PORTF_BASE
 #define BLUE_LED_PIN GPIO_PIN_2
@@ -62,10 +62,7 @@ void MagneticSensorIntHandler(void) {
       GPIOPinWrite(BLUE_LED_GPIO_BASE, GREEN_LED_PIN, 0);
         sendBluetoothData("Door is closed\n");
        
-        // sendBluetoothData("Door is opened aloo \n");
         
-        
-       // GPIOPinWrite(BLUE_LED_GPIO_BASE, BLUE_LED_PIN, BLUE_LED_PIN );
       
         
     } 
@@ -88,9 +85,7 @@ void MagneticSensorIntHandler(void) {
       GPIOPinWrite(BLUE_LED_GPIO_BASE, GREEN_LED_PIN, 0);
       SysCtlDelay(SysCtlClockGet() / 2);
       
-      //sendBluetoothData("Door is not opened \n");
-      //  GPIOPinWrite(BLUE_LED_GPIO_BASE, BLUE_LED_PIN, 0);
-        //GPIOPinWrite(BLUE_LED_GPIO_BASE, RED_LED_PIN, RED_LED_PIN);
+      
     }
 
       

@@ -42,9 +42,9 @@ void sendBluetoothData(const char *data) {
 
 
 void sendBluetoothIntruderMessage(float distance) {
-    char buffer[50];  // Adjust the buffer size based on your requirements
+    char buffer[50];  
     snprintf(buffer, sizeof(buffer), "There is an intruder: %.2f meters\n", distance);
     
-    // Send the formatted string over Bluetooth
+    
     sendBluetoothData(buffer);
 }

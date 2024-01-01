@@ -20,7 +20,7 @@
     while (!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOD)) {}
 
     
-    GPIOPinTypeGPIOOutput(GPIO_PORTD_BASE, GPIO_PIN_0);  // pulse maker / trigger
+    GPIOPinTypeGPIOOutput(GPIO_PORTD_BASE, GPIO_PIN_0);  //  trigger
 
     
     GPIOPinTypeGPIOInput(GPIO_PORTD_BASE, GPIO_PIN_1);   // echo receiver 
@@ -59,8 +59,7 @@ void ultrasonic_trigger_pulse(void) {
   
     GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_0 , 1);
     
-    //SysCtlDelay(8);  // Adjust delay as needed for your sensor
-    //SysCtlDelay(3 * SysCtlClockGet());
+   
      softwareDelay(100);
     GPIOPinWrite(GPIO_PORTD_BASE, GPIO_PIN_0, 0);
 }

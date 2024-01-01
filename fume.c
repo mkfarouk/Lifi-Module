@@ -19,7 +19,7 @@
 #define RED_LED_PIN GPIO_PIN_1
 #define BLUE_LED_PIN GPIO_PIN_2
 #define GREEN_LED_PIN GPIO_PIN_3
-//#define BLUE_LED_PIN GPIO_PIN_2
+
 
 void fume_sensor_init(void) {
   
@@ -32,9 +32,7 @@ void fume_sensor_init(void) {
     
     GPIOPinTypeGPIOInput(GPIO_PORTB_BASE, GPIO_PIN_0);
 
-   // GPIOPadConfigSet(GPIO_PORTB_BASE, GPIO_PIN_0, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
-
-    //GPIOPadConfigSet(GPIO_PORTB_BASE, GPIO_PIN_0, GPIO_STRENGTH_4MA, GPIO_PIN_TYPE_STD_WPU);
+   
     
     GPIOIntTypeSet(GPIO_PORTB_BASE, GPIO_PIN_0, GPIO_FALLING_EDGE);
     GPIOIntRegister(GPIO_PORTB_BASE, FumeSensorIntHandler);
@@ -67,7 +65,7 @@ void init_led(void) {
     GPIOPinTypeGPIOOutput(RED_LED_GPIO_BASE, RED_LED_PIN);
     GPIOPinTypeGPIOOutput(RED_LED_GPIO_BASE, BLUE_LED_PIN);
     GPIOPinTypeGPIOOutput(RED_LED_GPIO_BASE, GREEN_LED_PIN);
-    //GPIOPinTypeGPIOOutput(RED_LED_GPIO_BASE, BLUE_LED_PIN);
+    
 }
 
 
@@ -97,15 +95,11 @@ void FumeSensorIntHandler(void) {
       
       SysCtlDelay(SysCtlClockGet() / 2);
  
-     // sendBluetoothData("Smoke Detected a7aaaaa\n");
+     
        
      
       
-    }/* else {
-        // If fume sensor output is not 0, turn off the red LED
-        GPIOPinWrite(RED_LED_GPIO_BASE, RED_LED_PIN, 0);
-         sendBluetoothData("amaaan \n");
-    }*/
+    }
 
  
     GPIOIntClear(GPIO_PORTB_BASE, GPIO_PIN_0);

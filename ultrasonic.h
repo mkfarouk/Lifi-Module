@@ -11,7 +11,7 @@
 #include "utils/uartstdio.h"
 
 
-//float check_intrusion(float door_distance);
+
 
 
 void ultrasonic_sensor_init(void);
@@ -29,6 +29,6 @@ void softwareDelay(uint32_t delay);
 
 void ultrasonic_sensor_deinit(void);
 
-//float performDistanceMeasurement(void);
+
 
 

@@ -15,7 +15,7 @@ void magnetic_sensor_init(void);
 
 uint8_t read_magnetic_sensor(void);
 
-//void init_blue_led(void);
+
 
 void MagneticSensorIntHandler(void);
 
